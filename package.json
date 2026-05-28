@@ -4,8 +4,8 @@
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd backend && node index.js",
-    "client": "cd src && npm run start-react",
-    "start-react": "react-scripts start"
+    "client": "react-scripts start",
+    "build": "react-scripts build"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"
