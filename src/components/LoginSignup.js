@@ -62,8 +62,8 @@ const LoginSignup = () => {
 
     const doAuth = async () => {
       const endpoint = isLogin
-        ? 'http://localhost:5000/api/auth/login'
-        : 'http://localhost:5000/api/auth/signup';
+        ? 'https://internship-belong-education.onrender.com/api/auth/login'
+        : 'https://internship-belong-education.onrender.com/api/auth/signup';
 
       const body = isLogin
         ? { email: formData.email, password: formData.password }
