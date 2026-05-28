@@ -9,7 +9,7 @@ const ProductList = ({ addToCart }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://internship-belong-education.onrender.com/products")
       .then(res => res.json())
       .then(data => setProducts(data))
       .catch(err => {
