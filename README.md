@@ -1,3 +1,8 @@
+# Live Deployment
+## Frontend (Vercel) - https://YOUR-VERCEL-URL.vercel.app
+
+## Backend API (Render) - https://internship-belong-education.onrender.com
+
 Access the Sample Video here - https://drive.google.com/file/d/1p6zdhIoaWX-Z3a55BecGhnomZVu7P-Dv/view?usp=sharing
 
 # Getting Started with Create React App
